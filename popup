@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Adii</title>
+    </head>
+    <body>
+        <button onclick="runPopup()">CLICK ME</button>
+        <!-- <h1>Belajar Javascript</h1> -->
+        <!-- <script src="main.js"></script> -->
+       <script> function runPopup(){
+            var respond = prompt("Masukkan Nama Anda: ");
+            if(respond = "")
+            {
+            window.alert("Hai, " + respond + "!");
+            }
+            else
+            {
+            window.alert("Pengguna Tidak Memasukkan Kalimat Apapun");
+            }
+            };
+           
+        </script>
+    </body>
+</html>
